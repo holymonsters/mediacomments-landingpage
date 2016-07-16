@@ -1,0 +1,154 @@
+header {
+  height: 100%;
+  background: linear-gradient(#213b6c 0%, #6eadcc 100%);
+  position:relative;
+  display: block;
+  vertical-align: baseline;
+}
+
+.inner {
+  position: absolute;
+  top: 40%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;
+}
+
+h1 {
+  text-align: center;
+  color: #EEEEEE;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.get-started-box {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.get-started {
+  background: #158d15;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: large;
+  padding: 8px 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.get-started:hover {
+  border: 3px solid rgba(255, 255, 255, 0.6);
+}
+
+.get-started-black {
+  background: none;
+  border: 3px solid rgba(0, 0, 0, 0.4);
+  color: black;
+  font-size: large;
+  padding: 8px 22px;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.get-started-black:hover {
+  border: 3px solid rgba(0, 0, 0, 0.6);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  background-color: #FFFFFF;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #5d93b0;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 3;
+}
+
+.underline {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subtitle {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 200;
+  margin-top: 65px;
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 2rem;
+  line-height: 110%;
+}
+
+.items-box {
+  margin-top: 50px;
+}
+
+.item {
+  text-align: center;
+}
+
+.horizontal-rule {
+  display: block;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+p {
+  font-size: 19px;
+}
+
+nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+.nav-wrapper {
+  background-color: transparent;
+  border: 0px;
+  padding-top: 10px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+nav .brand-logo {
+  font-size: 1.5rem;
+}
+
+.mc-icon {
+  width: 33px;
+  margin-right: 5px;
+}
+
+.sign-up {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 1px 6px;
+  line-height: 2;
+  background-color: transparent;
+}
+
+.sign-up:hover {
+  border: 1px solid rgba(255, 255, 255, 0.9);
+}
